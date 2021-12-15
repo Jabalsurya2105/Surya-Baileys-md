@@ -47,7 +47,7 @@ console.log(err)
 }
 })
 
-/*hisoka.ev.on('group-participants.update', async (anu) => {
+hisoka.ev.on('group-participants.update', async (anu) => {
 console.log(anu)
 try {
 let metadata = await hisoka.groupMetadata(anu.id)
@@ -76,7 +76,7 @@ hisoka.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid
 } catch (err) {
 console.log(err)
 }
-})*/
+})
 
 if (wm === true) {
 console.log(color('\n        [ • BOT Creator By Surya • ]' ,'cyan'))
